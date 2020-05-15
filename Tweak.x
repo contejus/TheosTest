@@ -9,10 +9,10 @@ the generation of a class list and an automatic constructor.
 - (void)applicationDidFinishLaunching:(id)application {
 	%orig; // Call through to the original function with its original arguments.
 	
-	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"ROFL" 
-                                                message:@"Dee dee doo doo."
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"This is a test tweak" 
+                                                message:@"Give me pizza pls."
                                                delegate:self   
-                                      cancelButtonTitle:@"OK"                                                     
+                                      cancelButtonTitle:@"No"                                                     
                                       otherButtonTitles:nil]; 
     [alert show];
 }

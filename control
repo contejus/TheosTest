@@ -3,7 +3,7 @@ Name: Test
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Test Theos setup with UIAlertView popup on respring.
 Maintainer: contejus
 Author: contejus
 Section: Tweaks
